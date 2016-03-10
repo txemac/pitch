@@ -9,6 +9,10 @@ including x) is greater than x but no subset of x's divisors add up to
 exactly x."
 
 
+# Execute
+    python pitchup.py
+
+
 # Author
 Jose Bermudez
 info@josebermudez.co.uk
