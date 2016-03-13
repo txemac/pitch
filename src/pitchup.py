@@ -28,7 +28,8 @@ def calculate_sum(nums):
 
 def check_subsets(divisors, num):
     """
-    Check subsets and compare the sum with number, return True if
+    Check subsets and compare the sum of subset with number, return True if sum
+    is equal to the number.
     :param divisors: divisors of a number
     :param num: number
     :return: boolean
