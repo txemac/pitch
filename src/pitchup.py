@@ -1,5 +1,6 @@
 from itertools import combinations, chain
 
+
 __author__ = 'josebermudez'
 
 
