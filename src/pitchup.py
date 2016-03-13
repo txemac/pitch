@@ -41,12 +41,13 @@ def check_subsets(divisors, num):
     return True
 
 
-# loop from 1 to 553
-for x in xrange(1, 554):
-    # divisor of x, excluding x
-    divisors = list(calculate_divisors(x))
-    divisors.remove(x)
+if __name__ == "__main__":
+    # loop from 1 to 553
+    for x in xrange(1, 554):
+        # divisor of x, excluding x
+        divisors = list(calculate_divisors(x))
+        divisors.remove(x)
 
-    # check conditions
-    if calculate_sum(divisors) > x and check_subsets(divisors, x):
-        print 'Pitch finded:', x
+        # check conditions
+        if calculate_sum(divisors) > x and check_subsets(divisors, x):
+            print 'Pitch finded:', x
