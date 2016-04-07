@@ -5,10 +5,10 @@ import pitch
 __author__ = 'josebermudez'
 
 
-class TestsPitchup(unittest.TestCase):
+class TestsPitch(unittest.TestCase):
 
     def __init__(self, *args, **kwargs):
-        super(TestsPitchup, self).__init__(*args, **kwargs)
+        super(TestsPitch, self).__init__(*args, **kwargs)
         self.pitch = pitch
 
     def test_calculate_divisors(self):
